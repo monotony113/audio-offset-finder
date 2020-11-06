@@ -30,8 +30,7 @@ setup(
     install_requires=[
         'scipy>=0.12.0',
         'numpy',
-        'scikits.talkbox', 
+        'python_speech_features',
     ],
     scripts=['bin/audio-offset-finder'],
 )
-
